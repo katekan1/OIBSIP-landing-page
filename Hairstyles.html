@@ -25,55 +25,64 @@
           <img src="images/straight back long.JPG" alt="Straight Back Long" />
           <div class="hairstyle-info">
             <p>Straight Back Long - R180</p>
-            <button>Book Now</button>
           </div>
         </div>
         <div class="hairstyle">
           <img src="images/straight up.JPG" alt="Straight Up Short" />
           <div class="hairstyle-info">
             <p>Straight Up Short - R180</p>
-            <button>Book Now</button>
           </div>
         </div>
         <div class="hairstyle">
           <img src="images/straight up long.JPG" alt="Straight Up Long" />
           <div class="hairstyle-info">
             <p>Straight Up Long - R200</p>
-            <button>Book Now</button>
           </div>
         </div>
         <div class="hairstyle">
           <img src="images/knotless short.JPG" alt="Knotless Short" />
           <div class="hairstyle-info">
             <p>Knotless Short - R250</p>
-            <button>Book Now</button>
           </div>
         </div>
         <div class="hairstyle">
           <img src="images/knotless long.JPG" alt="Knotless Long" />
           <div class="hairstyle-info">
             <p>Knotless Long - R300</p>
-            <button>Book Now</button>
           </div>
         </div>
         <div class="hairstyle">
           <img src="images/cornrows long.JPG" alt="Cornrows Long" />
           <div class="hairstyle-info">
             <p>Cornrows Long - R300</p>
-            <button>Book Now</button>
           </div>
         </div>
         <div class="hairstyle">
           <img src="images/free hand.JPG" alt="Free Hand" />
           <div class="hairstyle-info">
             <p>Free Hand - R80</p>
-            <button>Book Now</button>
           </div>
         </div>
       </div>
-      <div>
-        <button onclick="window.location.href='homepage.html'">Home</button>
-      </div>
     </section>
+
+    <section id="booking-form">
+      <h2>Book an Appointment</h2>
+      <form>
+        <label for="name">Name and Surname:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="hairstyle">Hairstyle:</label>
+        <input type="text" id="hairstyle" name="hairstyle" readonly />
+
+        <label for="timeslot">Timeslot:</label>
+        <input type="datetime-local" id="timeslot" name="timeslot" required />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <div>
+      <button onclick="window.location.href='homepage.html'">Home</button>
+    </div>
   </body>
 </html>
